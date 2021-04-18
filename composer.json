@@ -1,0 +1,17 @@
+{
+    "name": "leo/crudrecuperacion",
+    "description": "Ejercicio login",
+    "type": "project",
+    "license": "Free",
+    "config":{
+        "optimize-autoloader":true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\":"clases"
+        }
+    },
+    "require": {
+        "fakerphp/faker":"^1.14"
+    }
+}
